@@ -1,1 +1,1 @@
-each script shows how to print an absolute pathname in current working directory
+Displaying the content list of the directory
