@@ -1,1 +1,1 @@
-The repository contain information abount absolute pathname
+iThe repository contain information abount absolute pathname
