@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 #A SCRIPT THAT DISPLAY BEST SCHOOL 10 TIMES AND HI AFTER THE 9TH USING WHILE AND IF
 
 i=1
@@ -13,3 +14,18 @@ do
   fi
   ((i++))
  done
+=======
+# A script that displays Best School 10 times and hi after the 9th using while and if
+
+i=1
+
+while [ $i -le 10 ]
+do
+    echo "Best School"
+    if [ $i -eq 9 ]
+    then
+        echo "Hi"
+    fi
+    ((i++))
+done
+>>>>>>> 3fc7aa5061a22d68cf57ce4d3f407e52fc45819c
