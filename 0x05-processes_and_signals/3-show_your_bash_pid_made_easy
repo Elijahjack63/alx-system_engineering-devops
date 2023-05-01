@@ -2,12 +2,5 @@
 #this  Bash script that displays the PID, along with the process name, of processes whose name contain the word bash
 #ps is ignore
 
-for pid in /proc/*/;
-do
-pname=$(tr '\0' ' ' < "${pid}cmdline" | cut -d ' ' -f 1)
-if [[ "$pname" == *"bash"* ]]; 
-then
- pid=$(basename "${pid}")
-  echo "PID: $pid   Process name: $pname"
- fi
-done
+pgrep -l bash
+
