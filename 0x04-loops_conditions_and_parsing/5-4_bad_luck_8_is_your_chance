@@ -1,4 +1,22 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
+# tis script Write a Bash script that loops from 1 to 10 using while loop
+
+count=1
+while [ $count -le 10 ]
+do
+ if [ $count -eq 4 ]
+ then
+ echo "bad luck"
+ elif [ $count -eq 8 ]
+ then
+  echo "good luck"
+else
+ echo "Best School"
+fi
+ ((count++))
+done
+=======
 # A script that loops through 1 to 10 using while
 
 i=1
@@ -16,3 +34,4 @@ do
     fi
     ((i++))
 done
+>>>>>>> 3fc7aa5061a22d68cf57ce4d3f407e52fc45819c

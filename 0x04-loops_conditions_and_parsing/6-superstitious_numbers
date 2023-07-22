@@ -1,4 +1,19 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
+#this script  displays numbers from 1 to 20 using while loop
+
+count=1
+while [ $count -le 20 ]
+do
+ echo "$count"
+ case $count in
+  "4") echo "bad luch from china";;
+  "9") echo "bad luck from japan";;
+  "17") echo "bad luck from italy";;
+ esac
+ (( count++))
+done
+=======
 # Write a Bash script that displays numbers from 1 to 20 and:
 
 # displays 4 and then bad luck from China for the 4th loop iteration
@@ -21,3 +36,4 @@ do
   esac
   (( i++ ))
 done
+>>>>>>> 3fc7aa5061a22d68cf57ce4d3f407e52fc45819c

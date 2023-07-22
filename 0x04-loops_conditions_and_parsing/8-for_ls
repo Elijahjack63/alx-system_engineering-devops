@@ -1,4 +1,13 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
+# this script Bash script that displays:
+#The content of the current directory In a list format using a for loop
+
+mylist=$(ls)
+
+for i in mylist; do
+ echo "$i" | cut -d '_' -f2
+=======
 # This script displays the content of the current directory in list format
 # Only displays the part of the name after the first dash
 
@@ -6,4 +15,5 @@ mylist=$(ls)
 
 for i in $mylist; do
   echo "$i" | cut -d '-' -f2
+>>>>>>> 3fc7aa5061a22d68cf57ce4d3f407e52fc45819c
 done
